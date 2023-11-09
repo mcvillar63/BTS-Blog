@@ -2,7 +2,8 @@
 /***** INDEX ME HTML ******/
 /**************************/
 :root {
-    --brown: #412411;
+    --white: #f5f5f0;
+    /* background-color: purple; */
     /* This is an example */
     /* Create your own color variables */
     /* At most I recommend using 3 colors 
@@ -18,7 +19,7 @@
 }
 
 body {
-    background-color: #c5638a;
+    background-color: #ae63c5;
     /* the bg color would be the same as your 
         quote section bg color */
 }
@@ -100,7 +101,7 @@ q {
 }
 
 .row {
-    background-color: var(--brown);
+    background-color: var(--white);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -130,7 +131,13 @@ p {
 
 
 /***  FOOTER ***/
-
+footer {
+    background-color: #322a2a;
+    color: beige;
+    text-align: center;
+    padding: 20px 30px;
+    margin-top: 20px;
+}
 
 
 
