@@ -91,7 +91,7 @@
 
      /***  TITLE ***/
      header h1 {
-         color var(--papaya);
+         color: var(--papaya);
          text-align: center;
          font-size: 85px;
          margin-top: 150px;
@@ -107,7 +107,7 @@
      }
 
      q {
-         color var(--brown);
+         color: var(--brown);
          font-family: 'Courier New', Courier, monospace;
          font-size: 100%;
      }
@@ -192,12 +192,14 @@
 
      /**BTS Family Tree for about me ***/
      #test {
-         background-color: #ae63c5;
+         background-color: #ecebd7;
          font-size: 65px;
      }
 
      /***image**/
      #BTSFam {
          height: 250px;
-         width: 300;
+         width: 500px;
      }
+
+     
